@@ -1,0 +1,7 @@
+body {
+  background-color: black;
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+

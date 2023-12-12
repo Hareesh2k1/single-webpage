@@ -1,0 +1,199 @@
+.epic-games-description {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 48px;
+    letter-spacing: 0.96px;
+    word-wrap: break-word;
+}
+
+.top-image {
+    width: 100%;
+    height: 100%;
+}
+
+.fortnite-description {
+    width: 100%;
+    opacity: 0.5;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+
+.image-container {
+    display: flex;
+}
+
+.inner-image {
+    width: 33%;
+}
+
+.explore-text {
+    width: 33%;
+    color: white;
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 0.38px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.our-contribution {
+    color: white;
+    text-align: center;
+    font-size: 42px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 48px;
+    word-wrap: break-word;
+}
+
+.core-offering {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+
+.row-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.number-highlight {
+    color: white;
+    font-size: 80px;
+    font-family: Roboto;
+    font-weight: 200;
+    line-height: 17.57px;
+    word-wrap: break-word;
+}
+
+.daily-engagements {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 300;
+    word-wrap: break-word;
+    margin-top: 10px;
+}
+
+.project-interest {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 48px;
+    letter-spacing: 0.96px;
+    word-wrap: break-word;
+}
+
+.contact-details {
+    width: 100%;
+    text-align: center;
+}
+
+.contact-details span {
+    color: white;
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.contact-details .email {
+    font-weight: 500;
+}
+
+.contact-details .phone {
+    font-weight: 500;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    letter-spacing: 0.96px;
+    word-wrap: break-word;
+    padding: 10px 20px; 
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    background: #000000; 
+    color: white; 
+    border-radius: 5px;
+  }
+  
+  .contact-us {
+    border-color: black; 
+    background: white; 
+    color: black; 
+  }
+
+  .copywrite-text {
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 26px;
+    word-wrap: break-word;
+  }
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+    .epic-games-description {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .fortnite-description {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .visit-button {
+        font-size: 16px;
+    }
+
+    .explore-text,
+    .core-offering,
+    .daily-engagements,
+    .project-interest,
+    .copywrite-text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .our-contribution,
+    .number-highlight,
+    .contact-details span {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
